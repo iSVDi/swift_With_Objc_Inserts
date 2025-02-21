@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51442E82D687832007B270C /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = A51442E72D687832007B270C /* Address.m */; };
+		A51442EB2D688BB2007B270C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A51442EA2D688BB2007B270C /* User.m */; };
 		A52105642CB661D400AC88E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52105632CB661D400AC88E9 /* AppDelegate.swift */; };
 		A52105662CB661D400AC88E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52105652CB661D400AC88E9 /* SceneDelegate.swift */; };
 		A52105682CB661D400AC88E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52105672CB661D400AC88E9 /* ViewController.swift */; };
 		A521056B2CB661D400AC88E9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A521056A2CB661D400AC88E9 /* Base */; };
 		A521056D2CB661D600AC88E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521056C2CB661D600AC88E9 /* Assets.xcassets */; };
 		A52105702CB661D600AC88E9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A521056F2CB661D600AC88E9 /* Base */; };
-		A521057B2CB6682100AC88E9 /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A521057A2CB6682100AC88E9 /* SomeObject.m */; };
-		A521057D2CB6756500AC88E9 /* file2.m in Sources */ = {isa = PBXBuildFile; fileRef = A521057C2CB6756500AC88E9 /* file2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51442E52D687757007B270C /* swift_With_Objc_Inserts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_With_Objc_Inserts-Bridging-Header.h"; sourceTree = "<group>"; };
+		A51442E62D687832007B270C /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		A51442E72D687832007B270C /* Address.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		A51442E92D688BB2007B270C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A51442EA2D688BB2007B270C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		A52105602CB661D400AC88E9 /* swift_With_Objc_Inserts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_With_Objc_Inserts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52105632CB661D400AC88E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52105652CB661D400AC88E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,11 +31,6 @@
 		A521056C2CB661D600AC88E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A521056F2CB661D600AC88E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52105712CB661D600AC88E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A52105782CB667CC00AC88E9 /* SomeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeObject.h; sourceTree = "<group>"; };
-		A52105792CB6682100AC88E9 /* swift_With_Objc_Inserts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_With_Objc_Inserts-Bridging-Header.h"; sourceTree = "<group>"; };
-		A521057A2CB6682100AC88E9 /* SomeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeObject.m; sourceTree = "<group>"; };
-		A521057C2CB6756500AC88E9 /* file2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = file2.m; sourceTree = "<group>"; };
-		A521057E2CB6758300AC88E9 /* file2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,28 +63,20 @@
 		A52105622CB661D400AC88E9 /* swift_With_Objc_Inserts */ = {
 			isa = PBXGroup;
 			children = (
-				A52105772CB6648700AC88E9 /* objc */,
 				A52105632CB661D400AC88E9 /* AppDelegate.swift */,
 				A52105652CB661D400AC88E9 /* SceneDelegate.swift */,
 				A52105672CB661D400AC88E9 /* ViewController.swift */,
+				A51442E92D688BB2007B270C /* User.h */,
+				A51442EA2D688BB2007B270C /* User.m */,
+				A51442E62D687832007B270C /* Address.h */,
+				A51442E72D687832007B270C /* Address.m */,
 				A52105692CB661D400AC88E9 /* Main.storyboard */,
 				A521056C2CB661D600AC88E9 /* Assets.xcassets */,
 				A521056E2CB661D600AC88E9 /* LaunchScreen.storyboard */,
 				A52105712CB661D600AC88E9 /* Info.plist */,
+				A51442E52D687757007B270C /* swift_With_Objc_Inserts-Bridging-Header.h */,
 			);
 			path = swift_With_Objc_Inserts;
-			sourceTree = "<group>";
-		};
-		A52105772CB6648700AC88E9 /* objc */ = {
-			isa = PBXGroup;
-			children = (
-				A52105782CB667CC00AC88E9 /* SomeObject.h */,
-				A521057A2CB6682100AC88E9 /* SomeObject.m */,
-				A52105792CB6682100AC88E9 /* swift_With_Objc_Inserts-Bridging-Header.h */,
-				A521057E2CB6758300AC88E9 /* file2.h */,
-				A521057C2CB6756500AC88E9 /* file2.m */,
-			);
-			path = objc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A521057D2CB6756500AC88E9 /* file2.m in Sources */,
+				A51442EB2D688BB2007B270C /* User.m in Sources */,
 				A52105682CB661D400AC88E9 /* ViewController.swift in Sources */,
 				A52105642CB661D400AC88E9 /* AppDelegate.swift in Sources */,
-				A521057B2CB6682100AC88E9 /* SomeObject.m in Sources */,
+				A51442E82D687832007B270C /* Address.m in Sources */,
 				A52105662CB661D400AC88E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "daniil.swift-With-Objc-Inserts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "swift_With_Objc_Inserts/objc/swift_With_Objc_Inserts-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_With_Objc_Inserts/swift_With_Objc_Inserts-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,7 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "daniil.swift-With-Objc-Inserts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "swift_With_Objc_Inserts/objc/swift_With_Objc_Inserts-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_With_Objc_Inserts/swift_With_Objc_Inserts-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
